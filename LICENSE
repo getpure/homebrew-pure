@@ -1,0 +1,31 @@
+Pure CLI — Binary Distribution License
+
+Copyright (c) 2026. All rights reserved.
+
+This repository contains only a Homebrew "tap" — formula metadata that
+points `brew install` at a pre-built `pure` CLI binary hosted at
+brew.pure.dev. It does not contain, and this license does not grant any
+rights to, the source code of the Pure CLI, the Pure compiler/runtime,
+or any other Pure software or service — all of which remain proprietary
+and are licensed separately (or not licensed for redistribution at
+all), regardless of anything in this file.
+
+Subject to that scope, the licensor grants you a personal, non-exclusive,
+non-transferable, revocable license to download, install, and run the
+compiled `pure` CLI binary distributed via this tap, for the purpose of
+using the hosted compile service at api.pure.dev. You may not:
+
+  - redistribute, sublicense, sell, rent, or otherwise make the binary
+    available to third parties except by pointing them at this same
+    official tap or brew.pure.dev/apt.pure.dev directly;
+  - reverse engineer, decompile, or disassemble the binary, except to
+    the extent applicable law expressly permits despite this restriction;
+  - use the binary to build a competing compile service.
+
+THE BINARY IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING
+FROM ITS USE.
+
+Questions about licensing terms: see https://pure.dev.
