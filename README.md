@@ -37,12 +37,8 @@ xattr -d com.apple.quarantine "$(brew --prefix)/bin/pure"
 
 ## Updating the formula on release
 
-This tap's formula is not auto-updated yet — after a release, bump
-`Formula/pure.rb`'s `version`, `url`(s), and `sha256`(s) by hand:
-
-```sh
-shasum -a 256 pure_<version>_macos_<arch>.tar.gz
-```
+`Formula/pure.rb`'s `version`, `url`(s), and `sha256`(s) are bumped
+automatically on every macOS release.
 
 ## License
 
