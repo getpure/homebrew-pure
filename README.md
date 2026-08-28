@@ -22,7 +22,7 @@ brew install getpure/pure/pure
 brew upgrade pure
 ```
 
-## Status
+## Support
 
 Only macOS Apple Silicon (arm64) is supported.
 
@@ -34,11 +34,6 @@ as being from an "unidentified developer" the first time you run it, run:
 ```sh
 xattr -d com.apple.quarantine "$(brew --prefix)/bin/pure"
 ```
-
-## Updating the formula on release
-
-`Formula/pure.rb`'s `version`, `url`(s), and `sha256`(s) are bumped
-automatically on every macOS release.
 
 ## License
 
