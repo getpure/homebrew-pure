@@ -29,7 +29,7 @@
 class Pure < Formula
   desc "Compile TypeScript/JavaScript to native binaries via api.pure.dev"
   homepage "https://pure.dev"
-  version "0.1.3"
+  version "0.1.8"
   # Proprietary, not MIT/Apache/any SPDX-listed license — the `pure`
   # binary is freely distributable but closed-source, same as the rest
   # of Pure's software. `:cannot_represent` is Homebrew's own documented
@@ -39,8 +39,8 @@ class Pure < Formula
 
   on_macos do
     on_arm do
-      url "https://brew.pure.dev/pure_0.1.3_macos_arm64.tar.gz"
-      sha256 "879ff8efcefb498f8219180e74801dacfc33403b43beb89fe05547976a98210c"
+      url "https://brew.pure.dev/pure_0.1.8_macos_arm64.tar.gz"
+      sha256 "e619487cf40c3bb41b6ac4d5c3974e694fb752dd9c1629fc6e1ea21e9763d5d4"
     end
     # on_intel: omitted until an x86_64 build is actually published (see
     # note above) — an Intel install attempt correctly fails loudly rather
