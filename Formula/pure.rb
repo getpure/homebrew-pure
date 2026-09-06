@@ -40,7 +40,7 @@ class Pure < Formula
   on_macos do
     on_arm do
       url "https://brew.pure.dev/pure_0.1.11_macos_arm64.tar.gz"
-      sha256 "75a95bc29b46220ea9bfea143fe8875b4c80faac08cf27683d545ab8a4a96b1a"
+      sha256 "bf52fe711891998b9acff336698bcd3f1db1dbab07654da721023753acad7a60"
     end
     # on_intel: omitted until an x86_64 build is actually published (see
     # note above) — an Intel install attempt correctly fails loudly rather
